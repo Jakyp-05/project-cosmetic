@@ -1,0 +1,49 @@
+.footer {
+  margin-top: 130px;
+  background-color: #fafafa;
+  padding-top: 108px;
+}
+
+.footer-contact {
+  margin-bottom: 60px;
+}
+
+.footer-contact .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-contact .container h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  color: #222222;
+}
+
+.form-footer {
+  width: 386px;
+  height: 56px;
+  padding: 8px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-footer button {
+  width: 103px;
+  height: 40px;
+  background-color: #402f2c;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.line {
+  width: 1240px;
+  margin: 0 auto;
+  border: 1px solid #dddddd;
+}

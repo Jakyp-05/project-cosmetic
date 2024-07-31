@@ -1,0 +1,89 @@
+.first {
+  background-color: #f9f6f5;
+}
+
+.header {
+  padding: 40px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .logo {
+  cursor: pointer;
+}
+
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.nav ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.blocks {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.profile {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.cart {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.cart img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  width: 24px;
+  height: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.menu-line {
+  width: 100%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.menu-line::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.menu-line::before {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  right: -2px;
+  width: 80%;
+  border: 1px solid black;
+}
