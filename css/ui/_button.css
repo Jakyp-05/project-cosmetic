@@ -1,0 +1,38 @@
+.btn {
+  border: none;
+  outline: none;
+  background-color: #402f2c;
+  color: white;
+  padding: 16px 32px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.btn:hover {
+  background-color: #5f4743;
+}
+
+.btn:active {
+  background-color: #1d1614;
+}
+
+.btn-border {
+  border: 1px solid #402f2c;
+  background-color: transparent;
+  color: #402f2c;
+}
+
+.btn-border:hover {
+  border: 1px solid #402f2c;
+  background-color: transparent;
+  color: #402f2c;
+}
+
+.btn-border:active {
+  border: 1px solid #402f2c;
+  background-color: transparent;
+  color: #402f2c;
+}
