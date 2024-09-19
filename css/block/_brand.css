@@ -12,7 +12,7 @@
   justify-content: center;
 }
 
-.brand-box {
+.brand__box {
   width: 90%;
   width: 1240px;
   margin-inline: auto;
@@ -27,7 +27,7 @@
   }
 }
 
-.brand-content {
+.brand__card {
   position: absolute;
   left: 100%;
   animation-name: scrollLeft;
@@ -36,26 +36,26 @@
   animation-iteration-count: infinite;
 }
 
-.item1 {
+.card_delay-1 {
   animation-delay: calc(30s / 6 * (6 - 1) * -1);
 }
 
-.item2 {
+.card_delay-2 {
   animation-delay: calc(30s / 6 * (6 - 2) * -1);
 }
 
-.item3 {
+.card_delay-3 {
   animation-delay: calc(30s / 6 * (6 - 3) * -1);
 }
 
-.item4 {
+.card_delay-4 {
   animation-delay: calc(30s / 6 * (6 - 4) * -1);
 }
 
-.item5 {
+.card_delay-5 {
   animation-delay: calc(30s / 6 * (6 - 5) * -1);
 }
 
-.item6 {
+.card_delay-6 {
   animation-delay: calc(30s / 6 * (6 - 6) * -1);
 }
