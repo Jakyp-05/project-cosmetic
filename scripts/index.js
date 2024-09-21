@@ -32,18 +32,18 @@ const productBox = document.querySelector(".product-box");
 
 const productMap = products.map((el) => {
   return `
-    <div class="card">
+    <div class="product__card">
         <img
-          class="card__image"
+          class="product__image"
           src="${el.image}"
           loading="lazy"
           alt="card image"
         />
-        <div class="card-content">
+        <div class="product__card-content">
           <h2>${el.name}</h2>
           <p>${el.description}</p>
-          <div class="card-actions">
-            <div class="card-buttons">
+          <div class="product__card-actions">
+            <div class="product__card-buttons">
               <button id="now" class="btn">Buy Now</button>
               <button id="cart" class="btn btn-border">Add To Cart</button>
           </div>

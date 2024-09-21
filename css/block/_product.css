@@ -57,18 +57,18 @@
   column-gap: 40px;
 }
 
-.card {
+.product__card {
   width: 600px;
   height: 812px;
   border: 1px solid #685a5230;
 }
 
-.card-content {
+.product__card-content {
   width: 100%;
   padding: 20px 32px 32px 32px;
 }
 
-.card-content h2 {
+.product__card-content h2 {
   font-size: 40px;
   font-weight: 500;
   line-height: 50px;
@@ -76,7 +76,7 @@
   margin-bottom: 16px;
 }
 
-.card-content p {
+.product__card-content p {
   font-size: 20px;
   font-weight: 400;
   color: #555555;
@@ -84,19 +84,19 @@
   margin-bottom: 47px;
 }
 
-.card-actions {
+.product__card-actions {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.card-buttons {
+.product__card-buttons {
   display: flex;
   align-items: center;
   column-gap: 24px;
 }
 
-.card-actions span {
+.product__card-actions span {
   font-size: 30px;
   font-weight: 500;
   line-height: 32px;
