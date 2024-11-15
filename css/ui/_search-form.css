@@ -22,6 +22,7 @@
 .search-form__btn {
   padding: 8px;
   background-color: #402f2c;
+  cursor: pointer;
 }
 
 .search-form__btn_style-text {
@@ -30,6 +31,7 @@
   line-height: 20px;
   color: #ffffff;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .search-form_width {
